@@ -210,7 +210,7 @@ body { min-height: 100vh; overflow: hidden; }
 .hint-card__text-wrap { display: grid; min-height: 100px; place-items: center; width: 100%; }
 .hint-card__text { margin: 0; color: #721d20; font-family: 'DM Mono', monospace; font-size: clamp(18px, 3vw, 29px); font-weight: 500; letter-spacing: .1em; line-height: 1.45; text-align: center; text-shadow: 0 0 17px rgba(184,26,26,.22); }
 .locked-message { position: absolute; top: calc(100% + 23px); left: 0; display: flex; width: 100%; align-items: center; justify-content: center; gap: 12px; color: rgba(236,229,223,.76); font-family: 'DM Mono', monospace; font-size: clamp(10px, 1.1vw, 13px); letter-spacing: .23em; text-align: center; }
-.locked-message__icon { display: grid; width: 19px; height: 20px; place-items: center; color: #ad2428; font-size: 30px; line-height: 1; filter: grayscale(1) sepia(1) saturate(5) hue-rotate(315deg); text-shadow: 0 0 12px rgba(189,27,34,.65); }
+.locked-message__icon { display: grid; width: 30px; height: 30px; place-items: center; color: #ad2428; font-size: 30px; line-height: 1; filter: grayscale(1) sepia(1) saturate(5) hue-rotate(315deg); text-shadow: 0 0 12px rgba(189,27,34,.65); }
 .envelope-stage--released .envelope__label, .envelope-stage--released .envelope__stamp { opacity: 0; }
 
 @media (min-width: 1100px) and (min-height: 760px) {
