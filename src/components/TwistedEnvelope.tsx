@@ -43,9 +43,7 @@ export default function TwistedEnvelope({ releaseTime, missionTitle, missionText
             animate={{ rotateY: isReleased ? 180 : 0 }}
             transition={{ duration: 1.45, delay: isReleased ? 0.95 : 0, ease: [0.65, 0, 0.35, 1] }}
           >
-            <div className="envelope__reverse" aria-hidden="true">
-              <span className="envelope__reverse-label">MISSIONATHON // SEALED DOSSIER</span>
-            </div>
+           
             <div className="envelope__front">
               <div className="envelope__paper" />
               <div className="envelope__back" />
