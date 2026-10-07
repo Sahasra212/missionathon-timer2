@@ -43,7 +43,9 @@ export default function TwistedEnvelope({ releaseTime, missionTitle, missionText
             animate={{ rotateY: isReleased ? 180 : 0 }}
             transition={{ duration: 1.45, delay: isReleased ? 0.95 : 0, ease: [0.65, 0, 0.35, 1] }}
           >
-           
+            <div className="envelope__reverse" aria-hidden="true">
+              <span className="envelope__reverse-label">MISSIONATHON  SEALED DOSSIER</span>
+            </div>
             <div className="envelope__front">
               <div className="envelope__paper" />
               <div className="envelope__back" />
@@ -74,7 +76,7 @@ export default function TwistedEnvelope({ releaseTime, missionTitle, missionText
                 transition={{ duration: 0.65, delay: isReleased ? 0.44 : 0 }}
                 aria-hidden="true"
               />
-              <div className="envelope__label" aria-hidden="true">TOP SECRET // MISSIONATHON</div>
+              <div className="envelope__label" aria-hidden="true">TOP SECRET  MISSIONATHON</div>
               <div className="envelope__stamp" aria-hidden="true">SEALED</div>
             </div>
           </motion.div>
@@ -90,7 +92,7 @@ export default function TwistedEnvelope({ releaseTime, missionTitle, missionText
               transition={{ duration: 2.8, repeat: Infinity, ease: 'easeInOut' }}
               aria-live="polite"
             >
-              <span className="locked-message__icon" aria-hidden="true">//</span>
+              <span className="locked-message__icon" aria-hidden="true"></span>
               <span>MISSION BRIEFING LOCKED</span>
             </motion.div>
           )}
